@@ -1,45 +1,66 @@
 body {
-  background-color: #3c91ec;
+  background-color: white;
 }
 
 body h1 {
-    color: white;
-    font-family: 'Arvo', serif;
-    font-size: 80px;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 80px;
 }
 
 body p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: right;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  font-size: 20px;
+}
+
+#top {
+  background-color: #3c91ec;
 }
 
 .container {
   width: 310px;
   margin-left: 30px;
-  margin-top: 15%;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  background-color: #3c91ec;
 }
 
 .about {
   background-color: white;
   text-align: center;
-  padding-top: 5px;
-  margin-top: 15px;
+  padding-top: 10%;
   color: #3c91ec;
+  font-family: 'Arvo', serif;
 }
 
 .about p {
-    color: #3c91ec;
-    text-align: center;
-    font-size: 14px;
+  color: #3c91ec;
+  text-align: center;
+  font-size: 14px;
+}
+
+#work {
+  background-color: white;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  color: #3c91ec;
+}
+
+#work p {
+  font-size: 14px;
+  text-align: center;
+  color: #3c91ec;
 }
 
 .wrap-about {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 25px;
   padding-bottom: 15px;
 }
+
 
 /* Main navbar */
 .navbar-wagon {
