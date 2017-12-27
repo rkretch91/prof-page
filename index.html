@@ -12,17 +12,15 @@
     <div class="navbar-wagon">
       <!-- Logo -->
       <a href="/" class="navbar-wagon-brand">
-        <img src="images/logo.png" alt="logo">
       </a>
 
       <!-- Right Navigation -->
       <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-        <a href="" class="navbar-wagon-item navbar-wagon-link">about me</a>
-        <a href="" class="navbar-wagon-item navbar-wagon-link">projects</a>
-        <a href="" class="navbar-wagon-item navbar-wagon-link">contact</a>
-
-        <!-- Profile picture with dropdown list -->
+        <a href="about.html" class="navbar-wagon-item navbar-wagon-link">about</a>
+        <a href="projects.html" class="navbar-wagon-item navbar-wagon-link">projects</a>
+        <a href="" class="navbar-wagon-item navbar-wagon-link">work with me</a>
+        <img src="images/hair-ryan.png" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
       </div>
 
       <!-- Dropdown appearing on mobile only -->
@@ -61,14 +59,47 @@
     <hr style="border-top: dotted 5px grey; width: 10%; opacity: 0.3;" />
     <section id="work">
       <div class="wrap-about">
-        <h2>what i can help you with</h2>
-        <p>Based in the wonderful New York City, I am a Designer and Full-Stack Web Developer with the simple passion of working on projects that improve lives and the world we live in.</p>
+        <h1>what i can do for you</h1></br>
+        <img src="/images/design.png" width="200">
+        <h2>design</h2>
+        <p>From simple and elegant graphic design to polished UX/UI design for your site, I know the importance of aesthetics.</p></br></br>
+        <hr style="border-top: dotted 4px grey; width: 5%; opacity: 0.1;" />
+        <img src="/images/development.png" width="200">
+        <h2>development</h2>
+        <p>From front-end (HTML/CSS, Javascript, Wordpress) to back-end (Rails, PHP, mySQL, Postgres) to deployment, I will help you navigate the complicated world of web development.</p>
+      </div>
+    <hr style="border-top: dotted 5px grey; width: 10%; opacity: 0.3;" />
+    <section id="say-hi">
+      <div class="wrap-about">
+        <h1>happy to help</h1></br>
+        <h2>I am always looking for cool projects to work on.</h2></br>
+        <a href="mailto:rkretch91@gmail.com" class="btn btn-info btn-xlarge" id="bootstrap-override">get in touch!</a>
       </div>
     </section>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://github.com/rkretch91"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/roamingry/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/rkretch91"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ryankretch/"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        This footer is made with <i class="fa fa-heart"></i> by Ryan
+      </div>
+    </div>
 
 
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </body>
+  <script>
+    window.sr = ScrollReveal();
+      sr.reveal('.container');
+      sr.reveal('.about');
+      sr.reveal('#work');
+      sr.reveal('#say-hi');
+  </script>
 </html>
 
