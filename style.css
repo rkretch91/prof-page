@@ -28,6 +28,14 @@ body p {
   background-color: #3c91ec;
 }
 
+.container-work {
+  width: 310px;
+  margin-left: 30px;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background-color: #3c91ec;
+}
+
 @media screen and (min-width: 500px) {
   .about {
     padding-top: 5%;
@@ -37,7 +45,7 @@ body p {
 .about {
   background-color: white;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 7%;
   padding-bottom: 3%;
   color: #3c91ec;
   font-family: 'Arvo', serif;
@@ -103,6 +111,11 @@ body p {
   background-color: #3c91ec;
 }
 
+#bootstrap-override-two {
+  background-color: white;
+  color: #3c91ec;
+}
+
 .btn-xlarge {
     padding: 15px 25px;
     font-size: 22px; //change this to your desired size
@@ -115,6 +128,7 @@ body p {
 
 /* Main navbar */
 .navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: #3c91ec;
   transition: all 0.3s ease;
   height: 70px;
@@ -152,8 +166,7 @@ body p {
 /* Navbar link */
 .navbar-wagon-link {
   color: white;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
@@ -366,4 +379,28 @@ input {
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+
+.project h3 {
+  font-size: 18px;
+}
+
+.about-blue {
+  background-color: #3c91ec;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  color: white;
+  font-family: 'Arvo', serif;
+}
+
+.about-blue h3 {
+  font-size: 18px;
+}
+
+.about-blue p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
 }
