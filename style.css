@@ -19,6 +19,7 @@ body p {
   background-color: #3c91ec;
 }
 
+
 .container {
   width: 310px;
   margin-left: 30px;
@@ -27,10 +28,25 @@ body p {
   background-color: #3c91ec;
 }
 
+.container-work {
+  width: 310px;
+  margin-left: 30px;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background-color: #3c91ec;
+}
+
+@media screen and (min-width: 500px) {
+  .about {
+    padding-top: 5%;
+  }
+}
+
 .about {
   background-color: white;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 7%;
+  padding-bottom: 3%;
   color: #3c91ec;
   font-family: 'Arvo', serif;
 }
@@ -46,6 +62,8 @@ body p {
   text-align: center;
   font-family: 'Arvo', serif;
   color: #3c91ec;
+  padding-top: 3%;
+  padding-botton: 3%;
 }
 
 #work p {
@@ -54,16 +72,63 @@ body p {
   color: #3c91ec;
 }
 
+#work h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #3c91ec;
+}
+
+#say-hi {
+  background-color: white;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  color: #3c91ec;
+  padding-top: 3%;
+  padding-botton: 10%;
+  margin-bottom: 5%;
+}
+
+#say-hi p {
+  font-size: 14px;
+  text-align: center;
+  color: #3c91ec;
+}
+
+#say-hi h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #3c91ec;
+}
+
 .wrap-about {
-  width: 50%;
+  width: 380px;
   margin: 0 auto;
   margin-top: 25px;
   padding-bottom: 15px;
 }
 
+#bootstrap-override {
+  background-color: #3c91ec;
+}
+
+#bootstrap-override-two {
+  background-color: white;
+  color: #3c91ec;
+}
+
+.btn-xlarge {
+    padding: 15px 25px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
 
 /* Main navbar */
 .navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: #3c91ec;
   transition: all 0.3s ease;
   height: 70px;
@@ -101,8 +166,7 @@ body p {
 /* Navbar link */
 .navbar-wagon-link {
   color: white;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
@@ -138,4 +202,205 @@ body p {
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.footer {
+  background: #3c91ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+ #contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+center{
+  margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
+
+.banner {
+  color: white;
+  text-align: right;
+  height: calc(100vh - 70px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+
+.project h3 {
+  font-size: 18px;
+}
+
+.about-blue {
+  background-color: #3c91ec;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  color: white;
+  font-family: 'Arvo', serif;
+}
+
+.about-blue h3 {
+  font-size: 18px;
+}
+
+.about-blue p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
 }

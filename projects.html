@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ryan Kretch's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Roboto" rel="stylesheet">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div class="navbar-wagon">
+      <!-- Logo -->
+     <a href="/" class="navbar-wagon-brand">
+        <img src="images/hair-ryan.png" alt="logo">
+     </a>
+
+      <!-- Right Navigation -->
+      <div class="navbar-wagon-right">
+
+        <a href="about.html" class="navbar-wagon-item navbar-wagon-link">about</a>
+        <a href="projects.html" class="navbar-wagon-item navbar-wagon-link">projects</a>
+      </div>
+   </div>
+
+    <section id="top">
+      <div class="container-work">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Projects</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="about">
+        <img src="/images/sh-greeters.png" width="50%">
+        <div class="wrap-about">
+          <h2>Shanghai Greeters</h2>
+          <h3>UI/UX, Back-end, Front-end<h3>
+          <p>Shanghai Greeters is a non-profit that connects visitors with local friends (or greeters). Previous problems included a non-intuitive and unattractive front-end and a non-existent back-end resulting in messy Excel sheets and manual matching.</p>
+          <p>Mainly in charge of back-end in Rails and Postgres, many of the processes including collecting tourist and greeter information are now done automatically and simplified through an admin panel.</p><br>
+          <a href="http://www.shgreeters.com" class="btn btn-info" id="bootstrap-override" target="_blank">check it out!</a>
+        </div>
+      </div>
+    </section>
+      <div class="about-blue">
+        <img src="/images/wecare-wc.png" width="50%">
+        <div class="wrap-about">
+          <h2>WeCare WC</h2>
+          <h3>UI/UX, Wordpress, SEO Strategy<h3>
+          <p>A company with the bold mission of redefining public restrooms in China and Asia. I helped to build the Wordpress site and incorporated in bilingual capabilities.</p><br>
+          <a href="http://www.wecarewc.com" class="btn btn-info" id="bootstrap-override-two" target="_blank">check it out!</a>
+        </div>
+      </div>
+    <section class="project">
+      <div class="about">
+        <img src="/images/dapper-dan.png" width="50%">
+        <div class="wrap-about">
+          <h2>Dapper Dan</h2>
+          <h3>Back-end<h3>
+          <p>Experimental site where men can rent or rent out their underutilized luxury accessories. I developed the back-end using Rails and Postgres making the booking and notification process simple for the users.</p><br>
+          <a href="http://airbnb-rkretch91.herokuapp.com" class="btn btn-info" id="bootstrap-override" target="_blank">check it out!</a>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://github.com/rkretch91"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/roamingry/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/rkretch91"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ryankretch/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    window.sr = ScrollReveal();
+      sr.reveal('.about');
+      sr.reveal('.about-blue');
+  </script>
+
+
+  </body>
